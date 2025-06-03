@@ -15,7 +15,7 @@ class Solution:
                 continue
 
             if status[box] == 1 or box in have_keys:
-                visited.add(box)
+                visited.add(box) #added to box
                 total_candies += candies[box]
 
                 for k in keys[box]:
